@@ -7,14 +7,13 @@ function Counter()  {
         setVal(val+1)
     }
     const SubVal = () => {
-        setVal(...prev, {val-1})
+        setVal(val-1)
     }
     return(
         <div>
             {val}
             <button onClick={AdditionVal}>Add</button>
             <button onClick={SubVal}>Sub</button>
-            <button onClick={AddFive}>Sub</button>
         </div>
     )
 }
