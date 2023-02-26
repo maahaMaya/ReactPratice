@@ -1,12 +1,14 @@
 
 import './App.css';
-import Comp1 from './Component/CopperTest/Comp1';
-import Copper from './Component/CopperTest/Copper';
+import PopperClock from './Component/CopperTest/PooperClock';
+import InputComp1 from './Component/Review/InputComp1';
+import TimeDateCheck from './Component/TimeDate/TimeDateCheck';
 
 function App() {
   return (
     <div className="App">
-      <Comp1/>
+      <br/>
+      <PopperClock/>
     </div>
   );
 }
