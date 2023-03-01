@@ -1,14 +1,13 @@
 
 import './App.css';
-import PopperClock from './Component/CopperTest/PooperClock';
-import InputComp1 from './Component/Review/InputComp1';
-import TimeDateCheck from './Component/TimeDate/TimeDateCheck';
+import DrawerMini from './Component/DrawerMini/DrawerMini';
+
+
 
 function App() {
   return (
     <div className="App">
-      <br/>
-      <PopperClock/>
+     <DrawerMini/>
     </div>
   );
 }
