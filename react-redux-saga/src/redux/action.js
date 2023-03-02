@@ -1,12 +1,24 @@
-import { ADD_TO_CART } from "./constant"
+import { ADD_TO_CART, EMPTY_CART, REMOVE_TO_CART } from "./constant"
 
- export const addToCart = (data) => {
-    console.warn("action is called", data)
-    //return "hello";  /// give error because it will need key
+export const addToCart = (data) => {
+    console.warn("action is addToCart", data)
     return {
-        //type:'ADD_TO_CART',  /// any mistake in type value we must import constant value;
-        //data:data   /// if key and value are then only we write directly 
         type: ADD_TO_CART,
         data
+    }
+}
+
+export const removeToCart = (data) => {
+    console.warn("action is removeToCart", data)
+    return {
+        type: REMOVE_TO_CART,
+        data
+    }
+}
+
+export const emptyCart = () => {
+    console.warn("action is emptyCart")
+    return {
+        type: EMPTY_CART
     }
 }

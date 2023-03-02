@@ -1,0 +1,41 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Iphone",
+            "color":"golden",
+            "price":1600000,
+            "category":"Phone",
+            "brand":"Apple",
+            "photo":"https://www.mobilepagla.com/wp-content/uploads/2021/05/Apple-iPhone-14-Pro-Max-500x500.jpg"
+        },
+        {
+            "id":2,
+            "name":"Iphone",
+            "color":"white",
+            "price":1600000,
+            "category":"Phone",
+            "brand":"Apple",
+            "photo":"https://www.mobilepagla.com/wp-content/uploads/2021/05/Apple-iPhone-14-Pro-Max-500x500.jpg"
+        },
+        {
+            "id":3,
+            "name":"TV",
+            "color":"golden",
+            "price":160000,
+            "category":"Television",
+            "brand":"Sony",
+            "photo":"https://www.mobilepagla.com/wp-content/uploads/2021/05/Apple-iPhone-14-Pro-Max-500x500.jpg"
+        },
+        {
+            "id":4,
+            "name":"Pixel",
+            "color":"black",
+            "price":160000,
+            "category":"Phone",
+            "brand":"Google",
+            "photo":"https://th.bing.com/th/id/OIP.-5jLjwioF5h7Dk0Nmd12nwAAAA?pid=ImgDet&w=418&h=632&rs=1"
+        }
+    ]
+}
+
