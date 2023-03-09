@@ -1,13 +1,10 @@
 import './App.css';
-import DataFetchButton from './components/UseEffect/DataFetch/DataFetchButton';
-import DataFetchCondition from './components/UseEffect/DataFetch/DataFetchCondition';
-import DataFecthing from './components/UseEffect/DataFetch/DataFetching';
-
+import ParentC from './components/review04/parentC';
 
 function App() {
   return (
     <div className="App">
-      <DataFetchButton/>
+      <ParentC/>
     </div>
   );
 }
